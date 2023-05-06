@@ -9,7 +9,7 @@ int selectMenu(){
     printf("4. 삭제\n");
     printf("5. 저장\n");
     printf("0. 종료\n\n");
-    printf("=> 원하는 메뉴는? ");
+    printf("=> 원하는 메뉴를 입력하세요 :> ");
     scanf("%d", &menu);
     return menu;
 }
@@ -28,7 +28,7 @@ void listProduct(Product *p,int count){
 int selectDataNo(Product *p, int count){
     int no;
     listProduct(p,count);
-    printf("번호는 (취소:0)?");
+    printf("선택할 번호를 입력해주세요:D (취소:0)>");
     scanf("%d",&no);
     getchar();
     return no;
