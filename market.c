@@ -37,22 +37,22 @@ int main(void){
         else if (menu == 4) {
             int no=selectDataNo(slist, curcount);
             if(no==0){
-                printf("=>취소됨!");
+                printf("=>취소됐어요! :D");
                 continue;
             }
             int deleteok;
-            printf("정말로 삭제하시겠습니까?(삭제:1)");
+            printf("진짜 삭제할 거예요?(삭제:1)");
             scanf("%d",&deleteok);
             if(deleteok == 1){
                 if(deleteProduct(&slist[no-1])) count --;       
            	 } 
         }
 	    else if (menu == 5){
-		    if (count==0) printf("데이터가 없습니다!\n");
+		    if (count==0) printf("아직 데이터가 없어요!\n");
 		    else saveData(slist,curcount);
 	    }
 	}
 
-	printf("\n종료됨!\n");
+	printf("\n종료됨! 다음에 또 만나요 :D\n");
    	return 0;
 }
