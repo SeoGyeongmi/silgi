@@ -68,6 +68,6 @@ int loadData(Product *p){
 
 
 
-	printf("=> 데이타 %d개 로딩 성공!\n", count);
+	printf("=> 데이타 %d개 로딩 성공했어요!! :D\n", count);
 	return count;
 }
