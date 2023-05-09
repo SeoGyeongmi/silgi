@@ -37,6 +37,6 @@ int updateProduct(Product *p){
 int deleteProduct(Product *p){
     p->weight=-1;
     p->price=-1;
-    printf("==> 삭제됨!\n");
+    printf("==> 삭제됐어요 :O!\n");
     return 0;
 }
