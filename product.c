@@ -3,7 +3,7 @@
 int createProduct(Product *p){
     printf("\n");
     printf("제품명은? ");
-    scanf("%[^\n]s",p->name);
+    scanf("%s",p->name);
 
     printf("중량은? ");
     scanf("%d",&p->weight);
