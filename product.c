@@ -23,14 +23,14 @@ int updateProduct(Product *p){
 
     printf("\n");
     printf("제품명은? ");
-    scanf("%[^\n]s",p->name);
+    scanf("%s",p->name);
 
     printf("중량은? ");
     scanf("%d",&p->weight);
 
     printf("가격은? ");
     scanf("%d",&p->price);
-    printf("==> 수정됨!\n");
+    printf("==> 수정됐어요 :O!\n");
     return 1;
 };
 
