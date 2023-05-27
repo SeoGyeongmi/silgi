@@ -9,7 +9,7 @@ int selectMenu(){
     printf("4. 삭제\n");
     printf("5. 저장\n");
     printf("0. 종료\n\n");
-    printf("=> 원하는 메뉴를 입력하세요 :ㅇ ");
+    printf("=> 원하는 메뉴를 입력하세요 :> ");
     scanf("%d", &menu);
     return menu;
 }
